@@ -1,5 +1,4 @@
-# thomas-klein-cv
-All about me
+
 # Thomas Klein
 SDN Network Engineer · Linux · Networking · Virtualization
 
