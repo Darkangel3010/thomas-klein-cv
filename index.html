@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thomas Klein – SDN Network Engineer, Linux, Virtualisierung, Security, Homelab.">
+  <title>Thomas Klein // tk-its</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header>
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="title">tk-its.com</div>
+        <div class="subtitle">person first · network engineer · homelab nerd</div>
+      </div>
+      <nav>
+        <a href="#about">Über mich</a>
+        <a href="#focus">Fokus</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#projects">Projekte</a>
+        <a href="#links">Links</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="card hero-card panel-glow">
+          <p class="eyebrow">Hi, ich bin</p>
+          <h1>Thomas Klein</h1>
+          <p class="small">SDN Network Engineer · Linux · Virtualisierung · Security</p>
+          <p class="small">🎂 Age: <span id="age"></span> years (runtime calculated)</p>
+          <p>
+            Ich bin ein leidenschaftlicher IT-Nerd mit Schwerpunkt auf Netzwerken,
+            Virtualisierung und stabilen Infrastrukturen. Ich mag saubere Architekturen,
+            nachvollziehbare Lösungen und Probleme, die nicht im Lehrbuch stehen.
+          </p>
+          <div class="badges">
+            <span class="badge">VMware NSX</span>
+            <span class="badge">Linux</span>
+            <span class="badge">Networking</span>
+            <span class="badge">Sophos</span>
+            <span class="badge">Cisco</span>
+            <span class="badge">Homelab</span>
+          </div>
+          <div class="cta-row">
+            <a class="btn primary magnetic" href="cv.html">📄 Online-Lebenslauf</a>
+            <a class="btn magnetic" href="https://tk-its.com" target="_blank" rel="noopener noreferrer">🌐 tk-its.com</a>
+            <a class="btn magnetic" href="#links">🔗 Meine Links</a>
+          </div>
+        </div>
+
+        <div class="card block side-panel panel-glow">
+          <h2>Was mich antreibt</h2>
+          <p>
+            Komplexe Infrastrukturen verständlich machen, Systeme automatisieren und
+            Lösungen bauen, die auch nachts noch sauber laufen.
+          </p>
+          <ul class="list compact">
+            <li>🧠 Fokus auf SDN, Netzwerkbetrieb und Virtualisierung</li>
+            <li>🛠 Dokumentation, HowTos und Skripte gehören für mich dazu</li>
+            <li>🏠 Im Homelab teste ich Ideen, bevor sie produktiv werden</li>
+            <li>🎵 Neben Technik: Chor, Gitarre und gute Fachliteratur</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="card block panel-glow reveal">
+          <h2>Über mich</h2>
+          <p>
+            Seit vielen Jahren arbeite ich im Bereich Netzwerk- und Systemadministration
+            mit einem klaren Fokus auf Software-Defined Networking, Virtualisierung,
+            Linux und Security. Besonders wichtig ist mir, dass Technik nicht nur
+            funktioniert, sondern im Alltag auch wartbar, verständlich und sauber dokumentiert bleibt.
+          </p>
+          <p>
+            Ich bewege mich gern zwischen Enterprise-Infrastruktur und Homelab. Genau dort
+            entstehen oft die spannendsten Ideen: Monitoring, Automatisierung, Firewalls,
+            Container, VPNs und alles, was Netzwerke robuster macht.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="focus">
+      <div class="container grid-2">
+        <div class="card block panel-glow reveal">
+          <h2>Fokus</h2>
+          <div class="chips">
+            <span class="chip violet">SDN / VMware NSX</span>
+            <span class="chip accent">Linux Administration</span>
+            <span class="chip">Routing & Switching</span>
+            <span class="chip">Firewall & VPN</span>
+            <span class="chip">Monitoring</span>
+            <span class="chip">Shell-Scripting</span>
+            <span class="chip">Proxmox / Docker / LXC</span>
+            <span class="chip">Cisco / Sophos</span>
+          </div>
+        </div>
+
+        <div class="card block panel-glow reveal">
+          <h2>Stack</h2>
+          <ul class="list">
+            <li><strong>Virtualisierung</strong><span class="hint">VMware, Proxmox, Docker, LXC</span></li>
+            <li><strong>Linux</strong><span class="hint">Debian, Arch Linux, Server-Administration, Updates, Bash</span></li>
+            <li><strong>Netzwerk</strong><span class="hint">VPN, LAN/WAN, VLAN, WLAN, Topologien, Überwachung</span></li>
+            <li><strong>Security</strong><span class="hint">Sophos, Cisco, Firewall-Management, Routing / Switching</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="container">
+        <div class="card block panel-glow reveal">
+          <h2>Beruflicher Weg</h2>
+          <div class="timeline">
+            <div class="titem">
+              <div class="twhen">03/2024 – 06/2025</div>
+              <div class="twhat">SDN Network Engineer · evoila GmbH</div>
+              <div class="tdesc">Routing- und Switching-Regeln in VMware NSX, Analyse und Behebung komplexer Kundenprobleme, Erstellung von HowTos und Linux-Skripten.</div>
+            </div>
+            <div class="titem">
+              <div class="twhen">12/2017 – 02/2024</div>
+              <div class="twhat">3rd Level Support Access Technik · Netcom GmbH</div>
+              <div class="tdesc">Monitoring, Entstörung und Einrichtung von Kundengeräten im DSL-Umfeld, Konfiguration von DSLAMs und Projektarbeit.</div>
+            </div>
+            <div class="titem">
+              <div class="twhen">07/2017 – 10/2017</div>
+              <div class="twhat">Fachinformatiker Systemintegration · Newlite GmbH</div>
+              <div class="tdesc">Administration von Linux-, VMware- und Windows-Servern sowie Firewall- und Client-Betreuung.</div>
+            </div>
+            <div class="titem">
+              <div class="twhen">07/2014 – 06/2017</div>
+              <div class="twhat">2nd-Line-Support Telekommunikation & Kabeltechnik · Unitymedia GmbH</div>
+              <div class="tdesc">Lösung von Netzwerk- und VoIP-Problemen, Konfiguration von Routern, Netzwerken und Telefonanlagen.</div>
+            </div>
+            <div class="titem">
+              <div class="twhen">2009 – 2014</div>
+              <div class="twhat">Systemintegration & IT-Service in mehreren Stationen</div>
+              <div class="tdesc">Server-Administration, Firewall-Betreuung, Client-Management und Infrastruktur-Support in verschiedenen Unternehmen.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container grid-2">
+        <div class="card block panel-glow reveal">
+          <h2>Aktuelle Projekte</h2>
+          <ul class="list">
+            <li><strong>Homelab</strong><span class="hint">Netzwerk, Reverse Proxy, Virtualisierung, Monitoring, Firewalls</span></li>
+            <li><strong>Linux & Automatisierung</strong><span class="hint">Shell-Skripte, Tooling und praktische Admin-Workflows</span></li>
+            <li><strong>Identity & Infra</strong><span class="hint">FreeIPA, LDAP, Reverse Proxy, Container-Umgebungen</span></li>
+          </ul>
+        </div>
+        <div class="card block panel-glow reveal">
+          <h2>Was man von mir bekommt</h2>
+          <ul class="list compact">
+            <li>✅ Praxisnahe Lösungen statt Buzzword-Theater</li>
+            <li>✅ Strukturierte Fehlersuche mit Fokus auf Ursache statt Symptom</li>
+            <li>✅ Dokumentation, die auch später noch hilft</li>
+            <li>✅ Ehrliches Interesse an Technik und sauberem Betrieb</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="links">
+      <div class="container">
+        <div class="card block panel-glow reveal">
+          <h2>Links</h2>
+          <p>Dein kleines Linktree-Ersatz-Setup – direkt in deinem eigenen Look.</p>
+          <div class="cta-row wrap link-grid">
+            <a class="btn primary magnetic" href="cv.html">📄 Online-Lebenslauf</a>
+            <a class="btn magnetic" href="https://tk-its.com" target="_blank" rel="noopener noreferrer">🌐 tk-its.com</a>
+            <a class="btn magnetic" href="https://github.com/Darkangel3010" target="_blank" rel="noopener noreferrer">💻 GitHub / Darkangel3010</a>
+            <a class="btn magnetic" href="https://www.linkedin.com/in/thomas-klein-b24746160" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
+            <a class="btn magnetic" href="https://www.xing.com/profile/Thomas_Klein224" target="_blank" rel="noopener noreferrer">📇 Xing</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="card block panel-glow reveal">
+          <h2>Kontakt</h2>
+          <p>
+            Du suchst jemanden für Netzwerke, Infrastruktur, Security-nahe Themen oder
+            einfach einen Admin mit echter Praxis? Dann melde dich gern.
+          </p>
+          <div class="cta-row wrap">
+            <a class="btn primary magnetic" href="mailto:tom@tomtb.de">✉️ tom@tomtb.de</a>
+            <a class="btn magnetic" href="tel:+4917645913663">📞 +49 176 45913663</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>Thomas Klein · Netzwerk · Linux · Virtualisierung</span>
+      <span>Built with HTML, CSS, JS & ein bisschen Nerd-Energie</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
